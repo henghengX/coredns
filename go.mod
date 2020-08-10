@@ -33,9 +33,9 @@ require (
 	go.etcd.io/etcd v0.5.0-alpha.5.0.20200306183522-221f0cc107cb
 	go.uber.org/zap v1.14.1 // indirect
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
-	golang.org/x/sys v0.0.0-20200615200032-f1bc736245b1
-	google.golang.org/api v0.29.0
-	google.golang.org/grpc v1.29.1
+	golang.org/x/sys v0.0.0-20200803210538-64077c9b5642
+	google.golang.org/api v0.30.0
+	google.golang.org/grpc v1.31.0
 	gopkg.in/DataDog/dd-trace-go.v1 v1.26.0
 	k8s.io/api v0.18.6
 	k8s.io/apimachinery v0.18.6
