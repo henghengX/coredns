@@ -15,7 +15,7 @@ jobs:
         id: go
 
       - name: Check out code
-        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
 
       - name: Build
         run: go build -v ./...
@@ -37,7 +37,7 @@ jobs:
         id: go
 
       - name: Check out code
-        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
 
       - name: Build
         run: go build -v ./...
@@ -56,7 +56,7 @@ jobs:
         id: go
 
       - name: Check out code
-        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
 
       - name: Build
         run: go build -v ./...
@@ -74,7 +74,7 @@ jobs:
         run: sudo apt-get install make curl
 
       - name: Check out code
-        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
 
       - name: Test Makefile.release
         run: make GITHUB_ACCESS_TOKEN=x -n release github-push -f Makefile.release
