@@ -10,7 +10,7 @@ jobs:
       - name: 'Checkout'
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332  # v4.1.7
       - name: 'Yamllint'
-        uses: karancode/yamllint-github-action@fdef6bc189425ecc84cc4543b2674566c0827053
+        uses: karancode/yamllint-github-action@4052d365f09b8d34eb552c363d1141fd60e2aeb2
         with:
           yamllint_file_or_dir: '.'
           yamllint_strict: false
