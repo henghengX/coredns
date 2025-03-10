@@ -1,9 +1,6 @@
 module github.com/coredns/coredns
 
 go 1.22.0
-
-toolchain go1.23.0
-
 require (
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.11.29
@@ -29,8 +26,8 @@ require (
 	github.com/quic-go/quic-go v0.47.0
 	go.etcd.io/etcd/api/v3 v3.5.16
 	go.etcd.io/etcd/client/v3 v3.5.16
-	golang.org/x/crypto v0.27.0
-	golang.org/x/sys v0.25.0
+	golang.org/x/crypto v0.36.0
+	golang.org/x/sys v0.31.0
 	google.golang.org/api v0.198.0
 	google.golang.org/grpc v1.67.0
 	google.golang.org/protobuf v1.34.2
@@ -125,9 +122,9 @@ require (
 	golang.org/x/mod v0.18.0 // indirect
 	golang.org/x/net v0.29.0 // indirect
 	golang.org/x/oauth2 v0.23.0 // indirect
-	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/term v0.24.0 // indirect
-	golang.org/x/text v0.18.0 // indirect
+	golang.org/x/sync v0.12.0 // indirect
+	golang.org/x/term v0.30.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/time v0.6.0 // indirect
 	golang.org/x/tools v0.22.0 // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
