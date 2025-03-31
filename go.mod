@@ -2,7 +2,7 @@ module github.com/coredns/coredns
 
 go 1.22.0
 
-toolchain go1.23.0
+toolchain go1.24.1
 
 require (
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible
@@ -12,7 +12,7 @@ require (
 	github.com/aws/aws-sdk-go v1.55.5
 	github.com/coredns/caddy v1.1.1
 	github.com/dnstap/golang-dnstap v0.4.0
-	github.com/expr-lang/expr v1.16.9
+	github.com/expr-lang/expr v1.17.2
 	github.com/farsightsec/golang-framestream v0.3.0
 	github.com/go-logr/logr v1.4.2
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
