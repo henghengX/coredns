@@ -2,7 +2,7 @@ module github.com/coredns/coredns
 
 go 1.22.0
 
-toolchain go1.23.0
+toolchain go1.24.1
 
 require (
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible
@@ -33,7 +33,7 @@ require (
 	golang.org/x/sys v0.25.0
 	google.golang.org/api v0.198.0
 	google.golang.org/grpc v1.67.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.36.6
 	gopkg.in/DataDog/dd-trace-go.v1 v1.68.0
 	k8s.io/api v0.31.1
 	k8s.io/apimachinery v0.31.1
